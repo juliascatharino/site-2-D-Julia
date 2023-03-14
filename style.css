@@ -21,8 +21,10 @@ body{
 .imagem-viagem  {
     width: 25%;
 }
-.bonVoyage {
+.tela-fundo{
     background-image: linear-gradient(#E2FDFF, #03989E);
+}
+.bonVoyage {
     color: #026873;
     display: flex;
     justify-content: center;
@@ -34,6 +36,16 @@ body{
 .bonVoyage-titulo {
     padding: 15px 0;
 }
-.escolhas {
+.escolhas-titulo {
     color: #026873;
+    text-align: center;
+} 
+.rodape {
+    background-color: #012E40;
+    text-align: center;
+}
+.rodape-imagem {
+    height: 60px;
+    width: 60px;
+    padding: 12px 0;
 }
