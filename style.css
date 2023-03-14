@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .cabeçalho {
     background-color: #E2FDFF;
-    color: #03989E;
+    color: #026873;
     display: flex;
     justify-content: space-around;
 }
@@ -14,4 +17,23 @@
 .cabeçalho-lista-item {
     display: inline-block;
     margin: 50px 16px;
+}
+.imagem-viagem  {
+    width: 25%;
+}
+.bonVoyage {
+    background-image: linear-gradient(#E2FDFF, #03989E);
+    color: #026873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bonVoyage-div-conteudo {
+    width: 35%;
+}
+.bonVoyage-titulo {
+    padding: 15px 0;
+}
+.escolhas {
+    color: #026873;
 }
