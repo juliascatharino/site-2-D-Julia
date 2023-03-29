@@ -15,8 +15,10 @@ body{
     width: 10%;
 }
 .cabeçalho-lista-item {
+    color:#026873;
     display: inline-block;
     margin: 50px 16px;
+    font-size:large;
 }
 .imagem-viagem  {
     width: 25%;
@@ -29,6 +31,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: x-large;
 }
 .bonVoyage-div-conteudo {
     width: 35%;
@@ -36,10 +39,6 @@ body{
 .bonVoyage-titulo {
     padding: 15px 0;
 }
-.escolhas-titulo {
-    color: #026873;
-    text-align: center;
-} 
 .rodape {
     background-color: #012E40;
     text-align: center;
