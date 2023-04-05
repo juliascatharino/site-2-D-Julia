@@ -2,18 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 .cabeçalho {
     background-color: #E2FDFF;
     color: #026873;
     display: flex;
     justify-content: space-around;
 }
+
 .cabeçalho-imagem {
     width: 10%;
 }
+
 .cabeçalho-lista-item {
     color:#026873;
     display: inline-block;
@@ -25,12 +29,15 @@ body{
     border-radius: 20px;
     text-decoration: none;
 }
+
 .imagem-viagem  {
     width: 25%;
 }
+
 .tela-fundo{
     background-image: linear-gradient(#E2FDFF, #03989E);
 }
+
 .bonVoyage {
     color: #026873;
     display: flex;
@@ -38,22 +45,39 @@ body{
     align-items: center;
     font-size:medium;
 }
+
 .bonVoyage-div-conteudo {
     width: 35%;
 }
+
 .bonVoyage-titulo {
     padding: 15px 0;
 }
+
 .rodape {
     background-color: #012E40;
     text-align: center;
 }
+
 .rodape-imagem {
     height: 60px;
     width: 60px;
     padding: 12px 0;
 }
-.rodape-lista {
-    font-size: 7px;
+
+.rodape__texto {
+    font-size: 10px;
     display: block;
+    color: #E2FDFF;
+    text-decoration: none;
 }
+
+.lista__link {
+    font-size: 10px;
+    display: inline-block;
+    margin: 20px 7px;
+    padding: 6px;
+    text-decoration: none;
+    color: #fafafa;
+}
+
