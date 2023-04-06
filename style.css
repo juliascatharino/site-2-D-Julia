@@ -15,7 +15,7 @@ body{
 }
 
 .cabeçalho-imagem {
-    width: 10%;
+    width: 11%;
 }
 
 .cabeçalho-lista-item {
@@ -78,6 +78,35 @@ body{
     margin: 20px 7px;
     padding: 6px;
     text-decoration: none;
-    color: #fafafa;
+    color: #E2FDFF;
 }
 
+.bonVoyage-titulo-destinos {
+    padding: 15px 0;
+    font-size: xx-large;
+    display: block;
+    text-align: center;
+}
+
+.bonVoyage-div-destinos{
+    display: flex;
+    flex-direction: column;
+}
+.destinos__botao {
+background-color:transparent;
+border: 2px solid #012E40;
+border-radius: 20px;
+color: #012E40;
+text-decoration: none;
+margin: 50px 16px;
+padding: 20px;
+display: flex;
+flex-direction:column
+}
+.foto-destinos-botao {
+    width: 30%;
+}
+.texto-destinos {
+    display: flex;
+    flex-direction: row;
+}
