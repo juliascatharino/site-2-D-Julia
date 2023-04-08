@@ -92,21 +92,40 @@ body{
     display: flex;
     flex-direction: column;
 }
+.quadrados-destinos {
+    display: inline-block;
+}
 .destinos__botao {
 background-color:transparent;
 border: 2px solid #012E40;
 border-radius: 20px;
 color: #012E40;
 text-decoration: none;
-margin: 50px 16px;
+margin: 50px 10px;
 padding: 20px;
 display: flex;
-flex-direction:column
+flex-direction: column;
+width: 200px;
+height: 250px;
+}
+.titulo-destino {
+    font-size: large;
+    text-align: center;
 }
 .foto-destinos-botao {
-    width: 30%;
+    width: 200px;
+    border-radius: 20px;
 }
 .texto-destinos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    font-size: medium;
+}
+.lista-incluidos {
+    font-size:x-small;
+    text-align: left;
+}
+
+.titulo-incluidos {
+    font-size: small;
 }
