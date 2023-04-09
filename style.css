@@ -83,7 +83,7 @@ body{
 
 .bonVoyage-titulo-destinos {
     padding: 15px 0;
-    font-size: xx-large;
+    font-size: 45px;
     display: block;
     text-align: center;
 }
@@ -95,6 +95,7 @@ body{
 .quadrados-destinos {
     display: inline-block;
 }
+
 .destinos__botao {
 background-color:transparent;
 border: 2px solid #012E40;
@@ -114,6 +115,7 @@ height: 250px;
 }
 .foto-destinos-botao {
     width: 200px;
+    height: 110px;
     border-radius: 20px;
 }
 .texto-destinos {
@@ -128,4 +130,8 @@ height: 250px;
 
 .titulo-incluidos {
     font-size: small;
+}
+.destinos-nacionais {
+    text-align: center;
+    font-size: medium;
 }
