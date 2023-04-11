@@ -135,3 +135,12 @@ height: 250px;
     text-align: center;
     font-size: medium;
 }
+.preço-1 {
+    font-size: large;
+    color: rgb(185, 107, 107);
+}
+
+.preço-2{
+    font-size: large;
+    color:#012E40;
+}
